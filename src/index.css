@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Cormorant+Garamond:wght@500;600&family=Dancing+Script:wght@500&family=Libre+Baskerville:wght@400;700&family=Italiana&display=swap');
+
+:root {
+  --font-title: 'Playfair Display', serif;
+  --font-body: 'Cormorant Garamond', serif;
+  --font-hand: 'Dancing Script', cursive;
+  --font-letter: 'Libre Baskerville', serif;
+  --font-quote: 'Italiana', serif;
+
+  --color-bg-dark: #0a0a1a;
+  --color-text-light: #f5f5f5;
+  --color-accent-gold: #ffd700;
+  --color-accent-blue: #4a90e2;
+  --color-paper: #f4e4bc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-bg-dark);
+  color: var(--color-text-light);
+  overflow: hidden; /* Prevent scroll for full-screen pages */
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
