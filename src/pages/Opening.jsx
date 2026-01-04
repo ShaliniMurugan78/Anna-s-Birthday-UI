@@ -63,7 +63,7 @@ const Opening = ({ onNext, playMusic }) => {
             }}
             onClick={handleStart}
         >
-            <Starfield /> // Full screen starfield
+            <Starfield />
             <FloatingEmojis />
 
             <motion.h1
